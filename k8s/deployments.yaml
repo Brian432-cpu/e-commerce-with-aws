@@ -13,11 +13,10 @@ spec:
       labels:
         app: e-commerce-api
     spec:
-      imagePullSecrets:
-      - name: ghcr-secret
       containers:
       - name: e-commerce-api
         image: ghcr.io/brian432-cpu/e-commerce-with-aws:3beacafbde3dca39ff4fd916158e02d4638470ba
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         env:
