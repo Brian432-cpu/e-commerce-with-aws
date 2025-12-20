@@ -31,7 +31,7 @@ spec:
               name: auth-secret
               key: BETTER_AUTH_SECRET
         - name: BETTER_AUTH_URL
-          value: "http://localhost:3000"
+          value: "http://localhost"
 ---
 apiVersion: v1
 kind: Service
@@ -45,3 +45,4 @@ spec:
   - port: 80
     targetPort: 3000
   type: LoadBalancer
+
