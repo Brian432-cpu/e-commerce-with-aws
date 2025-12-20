@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: e-commerce-api
-        image: ghcr.io/brian432-cpu/e-commerce-with-aws:9c24fb7ae9014293c87fd3aa64c18b347ca888b9
+        image: ghcr.io/brian432-cpu/e-commerce-with-aws:dd2a1435979336e29fe8895c62254cb14b74bb75
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
