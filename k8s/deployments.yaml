@@ -26,7 +26,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: e-commerce-api
-        image: ghcr.io/brian432-cpu/e-commerce-with-aws:e82888272f2c8deebd3818e562f61b4dd614fcf7
+        image: ghcr.io/brian432-cpu/e-commerce-with-aws:1d29e103162fd85ce0a1ca46f5d4bc36474b8e35
         imagePullPolicy: Always
         securityContext:
           allowPrivilegeEscalation: false
